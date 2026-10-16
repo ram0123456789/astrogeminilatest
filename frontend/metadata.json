@@ -1,0 +1,8 @@
+{
+  "name": "AstroVeda AI — Vedic Astrology, Kundli & Palm Reading",
+  "description": "An AI-powered clone of AstroTalk featuring live chat and voice consultations with AI Vedic Astrologers, North Indian Janam Kundli generation, 36-Guna Kundli Matching, AI Vision Palm Reading (Hastrekha), Daily Panchang, and a sacred post-consultation Dakshina & Ashirwad experience.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
