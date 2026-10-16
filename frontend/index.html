@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroVeda AI — Consult AI Vedic Astrologers, Kundli & Palm Reading</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ['Cinzel', 'serif'],
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              cosmic: {
+                950: '#080612',
+                900: '#0F0C1B',
+                800: '#18132A',
+                700: '#241D3D',
+              },
+              saffron: {
+                400: '#FF8A3D',
+                500: '#FF6B00',
+                600: '#D95300',
+              },
+              gold: {
+                300: '#F7E09E',
+                400: '#E5B84B',
+                500: '#C89B3C',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Clean subtle scrollbars when scrolling is needed */
+      .custom-scrollbar::-webkit-scrollbar {
+        height: 4px;
+        width: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 9999px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: rgba(245, 195, 59, 0.35);
+        border-radius: 9999px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: rgba(245, 195, 59, 0.6);
+      }
+    </style>
+      </head>
+  <body class="bg-cosmic-900 text-[#F4EFE6] font-sans antialiased selection:bg-saffron-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
